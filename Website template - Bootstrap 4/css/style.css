@@ -1,0 +1,74 @@
+body {
+    background: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: #ff9933 3px solid;
+    opacity: 0.7;
+}
+
+.bg-primary {
+    background-color: #ff9933!important;
+}
+
+#home-section {
+    background: url(../img/crowd2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+#home-section .card-form {
+    opacity: 0.9;
+}
+
+#home-section .fas {
+    color: #333;
+    background: #ff9933;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#explore-section .fas {
+    color: #ff9933;
+    background: #333;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.create-header {
+    background: rgba(255, 153, 51, 0.9)!important;
+}
+
+#create-section .fas {
+    color: #333;
+    background: #ff9933;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#share-section {
+    background: #ff9933;
+}
+
+#share-section .fas {
+    color: #ff9933;
+    background: #333;
+    padding: 3px;
+    border-radius: 10px;
+}
